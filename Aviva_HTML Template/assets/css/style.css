@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    border: 1px solid transparent;
+}
+
+ul{
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+header{
+	height: 30px;
+	width: 100%;
+	background-color: #ffd900;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: none !important;
+	color: #004fb6 !important;
+	font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+
+/*======= Banner Css=======*/
+.avivaBannerContent{font-weight: bold;color: #656565;font-size: small;}
+.customPageBreadCrumFont{font-weight: 500;color: #6b6e71;}
+.customFontColorHeading{color: #3b3b40;}
+.customSubFontColorText{color: #444;}
+.customSubMandatColorText{color: #444;}
+
+
+/*======== Navigation Bar Css=======*/
+.navBlock{height: 40px !important;width: 100% !important;background-color: #ffd900 !important;text-align: right;}
+.navbar-light .navbar-nav .nav-link{color: #004fb6 !important;font-family: 'Source Sans Pro', sans-serif !important;font-weight: 400 !important;font-size: 14px;}
+.mainLogo{float: left;width: 80px;padding: 10px 0;}
+
+/*======== Card Css=======*/
+.rightMain{float: right;text-align: right;margin: 0px;font-weight: 300;}
+.card {box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);max-width: 300px;margin: auto;text-align: left;font-family: arial;}
+.roundBlockImg{position: absolute;top: -98px;left: 50%;margin-left: -80px;}
+.cardBorderImg{border: 5px solid #f0f5fb;}
+
+.customMarginUpBott9020{margin: 90px 0px 20px;}
+.customAvivaYellowColor{background-color: #ffd900 !important;}
+.customMarginTop60{margin-top: 60px;}
+.customMarginTop10Per{margin-top:10%;}
+
+.customBlueColor{color:blue !important;}
+.perDetailsBlock{border-radius: 5px;background-color: #ffffff;}
+.bannerBlock{background-color: #f0f5fb !important;}
+
+/*Fow Window Viewport size*/
+.customWindowHeight60{width: 60vh;}
+.customWindowHeight70{width: 70vh;}
+.customWindowHeight80{width: 80vh;}
+.customWindowHeight90{width: 90vh;}
+.customWindowHeight100{width: 100vh;}
+
+.customPaddingUpBott12{padding: 12px 0;}
+.customPaddingUpBott10{padding: 10px 0;}
+.customPaddingUpBott20{padding: 20px 0;}
+.customPaddingUpBott30{padding: 30px 0;}
+.custompaddingUpBott40{padding: 40px 0;}
+
+.customPadidngTop80{padding-top:80px}
+
+.customVerticalAlign{vertical-align: text-bottom;}
+
+.customWidth100{width: 100%}
+.customWidth18{width: 18%}
+
+.customfontSizeSmall{font-size: small;}
+.customFontSize11{font-size: 11px;}
+.customFontSize10{font-size: 10px;}
+.customFontSize13{font-size: 13px !important}
+.customLableFont{font-weight: 500;font-size: 14px;}
+.customFontWeight300{font-weight: 300;}
+
+/*========= Carousel Customize Css ==========*/
+.carousel-control-prev-icon {opacity: 1 !important;width: 30px !important;height: 30px !important;box-shadow: 3px 8px 14px 0px #888686;border-radius: 15px;background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAAEOUlEQVRogd2aTWxUVRTH///bZjAFQlHDdFHaComNGiqKpixc+EVRN8YFogHdGV0YFoYYgx9bXNREE43GjQlGohZNjAsVAm5MhCh+oCBjRC1pUlCBIlBC03v+LvpmmGnffL77Zqj/5C7efe+eOb8577533rmXCCRJvQDuMrPbSPYD6ANwDYBF0SXnAZwC8IekX51z3wD4kuTxUD40LEnXSXrJzHJmpgbbUUkvSuprBcCA936HmU0nAJjdvJl9Kun2ZgBkIwALCBDXPpSUTQviUTM7kzJAcTstaWNIgIz3/u0mApQ07/2bkjLV/GQViIWSPgKwPtg/05j2kXyI5L/lLigLImmxpD0ABlNxDcCUF3YemgAJbBroRLur+L/uJ7mO5Pm4k+1xnZIykkaQMsTWL05g/9gkAMAReOzmpZWGrJX0iaQHSF6afdLFjTCz15Hi7TQbAgAcK0Yjr7vN7NW4E3NAJD1M8omGvayiOIjB7g5suGlJTeNJPiVp05z+4gNJWUlHAXQm9DdWU154bs9JfHX8QqFvsLsDw0NdWNBeU0TyOkvyBpLj+Y6SiJjZMK58CABYYmbbizsKFiTdKulbVHkkN6LAEHmJ5C0kfwSKIiJpG+YPBADQzLYVDoBCFvsbyjzFGlWKEHkZyRUkRx0AmNnjmH8QwIzPm4EoImaWA3B9KOtNgsjrF+fcjZTUI2k0lNUmQwAASPY6APeEMtgKiEh3OjNbE8JSCyFgZmtcVChIpFZCAADJfgdgRRIjrYaItLIdCVKScglgkyEAoNPhct2pbr3/08SVAAEAi4O+BFsph5kKYEN6ZFUnBrs7CscHxiaxdfcJXJpWCN/q0TkHYKLR0Zk24pX1XbijZ2Gh78DYJLZ8No6L0xbCwVo14QD8nsRCpo14eV22BOb78Yt4dvfJZkbmmJOUS2olDqaZt5mknHPOHQxhrJUwzrmD/5ekcbmL1icS3155tSAyR0iOOQAguTOk5WbCkHwPuPyp2yfpGObfV6InubLwqUvyTwAfh7BcrLQjI2mE5ChQWg5aLek7zJ9KikiuJnkIKLqVSP4g6d1EHpdRGpGR9E4eAphbMl0WlUwrlsUbVcDInCHZT/LvfEfJ5Cb5F8knE3tcRpk2Yvu92dhEc8rXHhmSTxdDADFPKZIjkt5K4nAlLWgnhoe65sB88HNtuaukN+JeF7GPW+fcFgCfN+hrVcXB1Jgs73XOPRN3otLS26Jo6W1tnX7WrCkv7Dp8FpPThs0DS3FV5XnyNcmhcktvtSyG7gJwXwJ/Q2hvtBh6rtwFFd/kJC+QfDDNOVNN0Zy4vxJEvQY3mtnpJq6xn5K0IYjzMTBXe+9fi/aNpAVg3vsdkpalAjELaFWKm2qClHDrBeqV9IKZHUkAcFjS85J6kvgSLEGUtBxzN55di9KNZ/9gZuNZLvrE3kdyLMTv/wfIjcW8CpIBdAAAAABJRU5ErkJggg==") !important;}
+.carousel-control-next-icon {width: 30px !important;height: 30px !important;box-shadow: 3px 8px 14px 0px #888686;border-radius: 15px;background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAAEVklEQVRogd2a64tVVRjGn2cd51Ip2YUZrOaSQtOFxLIpg0q7zihBRBcJhoK+WNA/kJX0zS99KDDGDAomCsouVBRGaCmCQhlqZDOR1dhEoDlOOjZnRtf79GHOnM6Z2XvOZa991B5YH/bam3e9v/2uvdda71pEIElqA3Cnmd1EsgNAO4BLAMzNPTIK4CiAXyX95Jz7BsBXJA+F8qFqSbpS0jozGzAzVVn6Jb0gqf1MACz23veZ2ekEANOLN7NPJXXWAqA5B2ABAaLKe5Ka04J4zMyOpQxQWIYlrQ4JUO+931RDgKLive+VVF/KT5aAuEDSBwC6gr2Z6rSN5IMkj8c9EAsiaZ6kLwHckoprlWs3yXtJjkbddFGVkuolbcbZAwEAyyR9LKkh6mYkiJltQIXdaWRceHHnBMZOV+Fi+brLzF6OujGja0l6VNK7lVg/Pi488VkW+w8bOhdk8MaqBpxfN+vnl0gke0i+XVRXeCGpWVI/gPnlGvUGPPTRGL4/Yvm6Wy/P4PWVjThvTlKXY/U3yWtI/jlVUdS1zOwlVAABABkH9Fw3B67glez6w+PJz7P455QS+hurC81sfWFFvnlJN0r6FiV+yXF6v/8Unt0+ASvw/bYrMnituxGN6URGJG8guQ8oiIiktagSAgAevroO65fXF0Vm55DHmi1ZZNP5AdDM1uYvgPws9mfE/MUqUY0jYyQXkhx0AGBmjyMABBAfmae+yGLch2ihSA5AD5CLiJkNALgqZAtRkbm9ZTIyDZmQLeFH59y1lNQqaTCo6ZyiYO5oyWBjYBiSbQ7A3eFMFiuqm+343ePp8N1shTOzpUFNTlMUzPZDYWHMbKnLJQpS1WwwEwFgSHY4AAuTmyqtlGEWOVQ4JUmiKJivw8DMd/gv71QTpQQzL8ggeDbIYTIDWDNFjS0rWjPo7WpEffVjywkHYCS5e+UpJQgAGHEAfknmXnmKglgeBgIADjpJA4nNlFDKEJA04Jxze5KbitdsEKHmW865Pf+XSWOLy+1PBO9ecdP40BAADpAccgBA8p2Qlmu4FsFUWmhqqdsu6SDOvaWuJ7kov9Ql+RuAD5NarXUmRdJmkoNAcTpoiaTvcG6lg5aQ3A8UdCWSeyW9VY3FKIibL8ugt6shLQhIenMKApiZMm3KpUwvKtfgGUqZHiPZQfLIVEXRx03yMMk1lVjMOKDv/kYsbpo01bkgg03dDWlCgOQzhRCx8t73VrpFNjzmtW5HVicnUt+K2xAJF1UpqU7SJwC6k7274NpKchXJiek3Ztt6m5vbeluWqmvlaxfJ+yraegMAkqMk7wGwJTXXytdWkl1xEECJkZzkSZIPSNoY3rfyJOlVkitJnghlcLWZDddwj/2opEeCOB8Bc7H3/hWbPDeSFoB57/skNaUCMQ3o+hQP1aSawo0DapP0vJkdSADwg6TnJLUm8SXYHrKkFsw8eHYpig+e/YXJg2cDuSX2NpJDIdr/F7f2G9SgFWWVAAAAAElFTkSuQmCC") !important;}
+.carousel-control-prev{opacity: 1 !important;}
+.carousel-control-next{opacity: 1 !important;}
+
+
+/*========== Accordion Css ===========*/
+
+/* Accordion css Of Plus Minus*/
+.accordion .card-header:after {content: "-";font-weight: bold;float: right;}
+ /* symbol for "collapsed" panels */
+.accordion .card-header.collapsed:after {font-weight: bold;content:"+";}
+.accordion>.card>.card-header{background-color: #ffffff59;padding: 15px 25px;}
+.card-header{border-top: 1px solid rgba(0,0,0,.125);}
+.card{border:unset;}
+
+
+/*=========== Footer css =========*/
+.footerBackground{background-color: #333333;color: #ffffff;}
+.footerBackground .leftHeading{font-weight: 300;font-size: 11px;letter-spacing: 0.5px;}
+.footerBackground .rightHeading{font-weight: 300;font-size: 11px;letter-spacing: 0.5px;}
+.footerBackground .rightHeading h3{font-weight: 600;font-size: 11px;letter-spacing: 0.5px;}
+.footerBackground .rightSubHeading h3{font-weight: 600;font-size: 10px;letter-spacing: 0.5px;}
+.footerBackground .rightHeading p a{color: #ffffff;text-decoration: none !important;}
+
+
+
+
+/*Media queries*/
+@media screen and (max-width: 768px){
+	
+	.navBlock .navbar-collapse{background-color:#ffffff;width: 100%;position: absolute;top: 40px;left: 0px;filter: drop-shadow(0px 9px 12px);}
+	.rightMain li{text-align: center;display: grid;}
+	.navBlock .navbar-brand{text-align: left !important;}
+	.navBlock .navbar-brand img{margin-top: -17px;}
+	.navbar-light .navbar-toggler{border: none !important;margin-top: -15px;padding: 0px;outline: none;}
+	.navbar-light ul li a{font-weight: bold !important;}
+	.navbar-light .navbar-nav .nav-link{font-weight: bold !important;}
+	.card-deck .bannerBlock{margin-top: 35%;}
+	.customMobPb_30{padding-bottom: 30px;}
+	.customMobWidth_60{width: 60%}
+
+	.customMobTextCenter{text-align: center;}
+	.customMobHeadText{font-size: 24px;}
+	.customMobMainHeadingText{font-size: 1.7rem;}
+	.customMobileMenuLabel ul li {list-style: none;margin: 0px auto;width: 90%;text-align:center;border-bottom: 1px solid #ccc;padding: 5px 5px 5px 5px;}
+}
